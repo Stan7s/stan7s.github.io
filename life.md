@@ -2,6 +2,6 @@
 layout: archive
 title: Life
 permalink: /life/
-tagline: "Humanity is overrated."
+tagline: "live a life you will remember."
 category: "life"
 ---
