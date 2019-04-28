@@ -4,7 +4,7 @@ title : About
 permalink: /about/
 ---
 
-<h2>Stan7</h2>
+<h2>Who is she?</h2>
 
 一只写代码的松鼠。此时她正坐在机房一边看着窗外的月亮，一边建设自己的树洞。
 
