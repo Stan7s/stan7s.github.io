@@ -7,7 +7,8 @@ categories: ["work"]
 
 在Linux中，我们可以使用screen来使用多个屏幕，这样使用起来会非常的方便。
 
-http://www.ibm.com/developerworks/cn/linux/l-cn-screen/ 这个是一个screen的文档。
+[http://www.ibm.com/developerworks/cn/linux/l-cn-screen/](http://www.ibm.com/developerworks/cn/linux/l-cn-screen/)
+这个是一个screen的文档。
 
 
 这里介绍一些自己使用的best practice.
@@ -17,4 +18,4 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-screen/ 这个是一个screen的
 3. screen -r name或者id，就可以回到某个screen了
 4. ctrl + a + d 可以回到前一个screen，当时在当前screen运行的程序不会停止
 
-引用自：https://blog.csdn.net/luoyouren/article/details/51382710
+引用自：[https://blog.csdn.net/luoyouren/article/details/51382710](http://www.ibm.com/developerworks/cn/linux/l-cn-screen/)
