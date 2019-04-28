@@ -11,8 +11,8 @@ email: lingboscu@gmail.com
 description: Dobby is a free elf.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://stan7s.github.io" # the base hostname & protocol for your site
-twitter_username: Stan7
-github_username:  Lingbo12
+twitter_username: Lingbo12
+github_username:  Stan7
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
