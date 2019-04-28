@@ -12,10 +12,11 @@ layout: default
     <div class="postTag">
       {{post.tag}}
     </div>
-    <br>
+    <br/><br/>
     <div class="postTitle">
     <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     </div>
+    <br/>
     <div class="postExt">
    {{ post.content | strip_html | truncate:200}}
     </div>
