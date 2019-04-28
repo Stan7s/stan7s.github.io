@@ -1,1 +1,1 @@
-# lingbo.github.io
+# stan7s.github.io
