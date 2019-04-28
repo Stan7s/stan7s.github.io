@@ -10,7 +10,7 @@ title: Stan7
 email: lingboscu@gmail.com
 description: Dobby is a free elf.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://stan7s.github.io" # the base hostname & protocol for your site
 twitter_username: Stan7
 github_username:  Stan7s
 paginate: 5
