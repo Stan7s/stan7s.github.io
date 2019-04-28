@@ -2,7 +2,7 @@
 layout: post
 title:  "Glow模型初探"
 date:   2019-04-28 15:01:00 +0530
-categories: ["work"]
+categories: ["research"]
 author: "Stan7"
 ---
 占个坑慢慢写。
