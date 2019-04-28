@@ -6,3 +6,17 @@ categories: ["work"]
 author: "Stan7"
 ---
 占个坑慢慢写。
+
+Glow链接：
+[https://github.com/openai/glow](https://github.com/openai/glow)
+
+Ubuntu安装Openmpi:
+[https://www.cnblogs.com/platero/p/4182436.html](https://www.cnblogs.com/platero/p/4182436.html)
+
+工作流程：
+```
+screen -S task
+source activate Gsunshine
+cd Research
+CUDA_VISIBLE_DEVICES=1,2,3,4 python train.py
+```
