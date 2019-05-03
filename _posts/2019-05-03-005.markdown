@@ -7,7 +7,7 @@ categories: ["work"]
 
 画了一个贼好看的DFA，发上来留作纪念w
 
-[https://github.com/Stan7s/stan7s.github.io/blob/master/pic/Cminus-DFA.png](https://github.com/Stan7s/stan7s.github.io/blob/master/pic/Cminus-DFA.png)
+![https://github.com/Stan7s/stan7s.github.io/blob/master/pic/Cminus-DFA.png](https://github.com/Stan7s/stan7s.github.io/blob/master/pic/Cminus-DFA.png)
 
 如上图所示，此DFA共包含11个状态，其中除START（初态）和DONE（终态）外，可分为以下三类：
 1. 注释相关的状态：DORC（Divide OR Comment，可能是除号，也可能是注释的开始），INCOMMENT1（进入注释），INCOMMENT（可能结束注释）。由于C-的注释较TINY而言略为复杂，因此需要设计多个中间状态以确保能够正确识别；
