@@ -18,6 +18,7 @@ Ubuntu安装Openmpi:
 screen -S task
 source activate Gsunshine
 cd Code/Glow
-CUDA_VISIBLE_DEVICES=1,2,3,4
+CUDA_VISIBLE_DEVICES=3,4
 python train.py
 ```
+

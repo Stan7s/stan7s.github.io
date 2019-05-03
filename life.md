@@ -2,6 +2,6 @@
 layout: archive
 title: Life
 permalink: /life/
-tagline: "live a life you will remember."
+tagline: "like sunny like rain."
 category: "life"
 ---
