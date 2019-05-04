@@ -13,15 +13,16 @@ categories: ["work"]
 ![GoogleFont-1]({{site.url}}/pic/GoogleFont-1.png)
 
 在html上引用：
-'''
+```
 <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Gloria Hallelujah'>
-'''
+```
+
 注意是 https 不是 http。
 
 修改css文件：
-'''
+```
 font-family: 'Gloria Hallelujah','PT Sans';
-'''
+```
 在后面保留了原先的字体，这样就算前面的挂掉也不至于回到Times New Romen（不
 
 刷新，成功~
