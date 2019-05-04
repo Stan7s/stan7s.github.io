@@ -1,8 +1,0 @@
----
-layout: post
-title:  "卷积神经网络"
-date:   2019-05-04 20:40:00 +0530
-categories: ["research"]
----
-
-![convolution]({{site.url}}/pic/convolution.png)
