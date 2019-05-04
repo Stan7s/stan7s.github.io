@@ -1,9 +1,9 @@
 ---
 layout: page
-title : About
-permalink: /about/
+title : Bio
+permalink: /bio/
 ---
 
-<h2>Stan7</h2>
+<h3>BIO</h3>
 
 “一条弯弯曲曲的河流，前进、后退、迂回，总能到达要去的地方。”
