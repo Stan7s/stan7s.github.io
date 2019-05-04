@@ -1,3 +1,4 @@
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <footer class="site-footer">
 
   <div class="wrapper">
@@ -7,10 +8,10 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list footer-content">
-          <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
-          <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span>{ { Jekyll } }</a></span></li>
-
-
+          <p>{{ site.description }}</p>
+          <span id="busuanzi_container_site_uv">
+            Visitors: <span id="busuanzi_value_site_uv"></span>
+          </span>
         </ul>
       </div>
 
@@ -28,10 +29,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-3 site-description">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
