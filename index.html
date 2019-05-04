@@ -19,7 +19,8 @@ layout: default
 
     <div class="postExt" style="font-size:1rem">
     <br>
-   {{ post.content | strip_html | truncate:200}}
+    {{post.excerpt}}
+    <!--{{ post.content | strip_html | truncate:200}}-->
     </div>
   </div>
 
