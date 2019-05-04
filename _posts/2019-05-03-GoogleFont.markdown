@@ -25,4 +25,5 @@ font-family: 'Gloria Hallelujah','PT Sans';
 在后面保留了原先的字体，这样就算前面的挂掉也不至于回到Times New Romen（不
 
 刷新，成功~
+
 ![GoogleFont-2]({{site.url}}/pic/GoogleFont-2.png)
