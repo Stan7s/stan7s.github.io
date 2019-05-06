@@ -18,8 +18,8 @@ author: "Stan7"
 
 
 #### 模型解释
-1. 苏剑林. (2018, Aug 11). 《细水长flow之NICE：流模型的基本概念与实现 》[Blog post]. Retrieved from https://spaces.ac.cn/archives/5776
-2. 苏剑林. (2018, Aug 26). 《细水长flow之RealNVP与Glow：流模型的传承与升华 》[Blog post]. Retrieved from https://spaces.ac.cn/archives/5807
+1. 苏剑林. (2018, Aug 11). 《细水长flow之NICE：流模型的基本概念与实现 》[Blog post]. Retrieved from [https://spaces.ac.cn/archives/5776](https://spaces.ac.cn/archives/5776)
+2. 苏剑林. (2018, Aug 26). 《细水长flow之RealNVP与Glow：流模型的传承与升华 》[Blog post]. Retrieved from [https://spaces.ac.cn/archives/5807](https://spaces.ac.cn/archives/5807)
 
 <br/>
 
