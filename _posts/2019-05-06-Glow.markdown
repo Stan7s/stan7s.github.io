@@ -7,8 +7,11 @@ author: "Stan7"
 ---
 占个坑慢慢写。
 
+<br/>
+
 ### 相关资料
 ---
+<br/>
 #### 论文&代码
 
 1. 论文：[https://arxiv.org/abs/1807.03039](https://arxiv.org/abs/1807.03039)
@@ -36,6 +39,7 @@ python train.py
 
 ### 什么是生成模型
 ---
+<br/>
 #### 标记（label）和特征（feature）
 
 >The label is the name of some category. If you’re building a machine learning system to distinguish fruits coming down a conveyor belt, labels for training samples might be “apple”, ” orange”, “banana”. The features are any kind of information you can extract about each sample. In our example, you might have one feature for colour, another for weight, another for length, and another for width. Maybe you would have some measure of concavity or linearity or ball-ness.
