@@ -7,13 +7,23 @@ author: "Stan7"
 ---
 占个坑慢慢写。
 
-Glow链接：
-[https://github.com/openai/glow](https://github.com/openai/glow)
+### 相关资料
+---
+#### 论文&代码
 
-Ubuntu安装Openmpi:
-[https://www.cnblogs.com/platero/p/4182436.html](https://www.cnblogs.com/platero/p/4182436.html)
+1. 论文：[https://arxiv.org/abs/1807.03039](https://arxiv.org/abs/1807.03039)
+2. 源代码：[https://github.com/openai/glow](https://github.com/openai/glow)
 
-工作流程：
+
+#### 模型解释
+1. 苏剑林. (2018, Aug 11). 《细水长flow之NICE：流模型的基本概念与实现 》[Blog post]. Retrieved from https://spaces.ac.cn/archives/5776
+2. 苏剑林. (2018, Aug 26). 《细水长flow之RealNVP与Glow：流模型的传承与升华 》[Blog post]. Retrieved from https://spaces.ac.cn/archives/5807
+
+<br/>
+
+### 工作环境
+---
+#### 工作流程
 ```
 screen -S task
 source activate Gsunshine
@@ -22,3 +32,34 @@ CUDA_VISIBLE_DEVICES=3,4
 python train.py
 ```
 
+<br/>
+
+### 什么是生成模型
+---
+#### 标记（label）和特征（feature）
+
+>The label is the name of some category. If you’re building a machine learning system to distinguish fruits coming down a conveyor belt, labels for training samples might be “apple”, ” orange”, “banana”. The features are any kind of information you can extract about each sample. In our example, you might have one feature for colour, another for weight, another for length, and another for width. Maybe you would have some measure of concavity or linearity or ball-ness.
+
+label是某件物品，feature是该物品的特征。
+
+e.g.: 苹果（红色，甜），菠萝（黄色，酸）
+苹果、菠萝是label，括号里的是它们各自的feature。
+
+训练出label和feature的关系后，给出“红色，甜”这些feature，应当能够预测它对应的label是苹果。
+
+#### 生成模型与判别模型
+
+从概率分布的角度考虑，对于一堆样本数据，每个均有特征（feature）Xi对应分类标记（label）yi。
+
+生成模型：学习得到联合概率分布P(x,y)，即特征x和标记y共同出现的概率，然后求条件概率分布。能够学习到数据生成的机制。
+
+判别模型：学习得到条件概率分布P(y|x)，即在特征x出现的情况下标记y出现的概率。
+
+数据要求：生成模型需要的数据量比较大，能够较好地估计概率密度；而判别模型对数据样本量的要求没有那么多。
+
+
+具体在图像上，flow模型可以认为是学习图像与其feature的关系。
+
+比如x->f(x)是encoder。x就是人脸照片，f(x)是其属性（如发色，肤色等）。
+
+训练出来之后由于f(x)可逆，可直接得到decoder：z->f^(-1)(z)。即给出一系列属性（如红发+棕色眼睛），可生成对应的人脸图像。
