@@ -65,3 +65,19 @@ e.g.: 苹果（红色，甜），菠萝（黄色，酸）
 比如x->f(x)是encoder。x就是人脸照片，f(x)是其属性（如发色，肤色等）。
 
 训练出来之后由于f(x)可逆，可直接得到decoder：z->f^(-1)(z)。即给出一系列属性（如红发+棕色眼睛），可生成对应的人脸图像。
+
+<br/>
+
+### 可逆1x1卷积
+
+```
+# Random Orthogonal Matrix
+q, _ = la.qr(weight)
+
+# LU decomposition: W -> PLU
+w_p, w_l, w_u = la.lu(q.astype(np.float32)) 
+
+# U -> U + diag(s)
+w_s = np.diag(w_u)
+w_u = np.triu(w_u, 1) 
+```
