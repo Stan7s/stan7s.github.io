@@ -6,7 +6,7 @@ categories: ["work"]
 author: "Stan7"
 ---
 
-写了一个从IMDb抓取影评的小爬虫。
+写了一个从IMDb抓取影评的小爬虫，地址：https://github.com/Stan7s/IMDb-Review-Crawler
 
 基于request+beautifulsoup，支持ajax翻页（差点以为不得不用selenium了
 
