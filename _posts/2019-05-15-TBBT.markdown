@@ -20,5 +20,3 @@ author: "Stan7"
 **Update on May 19:**
 
 “Astronaut Howard Wolowitz."
-
-It all started with the Big Bang.
