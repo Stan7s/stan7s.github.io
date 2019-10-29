@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "生活，生活"
 date:   2019-10-29 21:37:00 +0530
 categories: ["life"]
 author: "Stan7"
