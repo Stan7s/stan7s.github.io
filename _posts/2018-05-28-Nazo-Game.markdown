@@ -5,37 +5,68 @@ date:   2019-05-28 15:47:00 +0530
 categories: ["life"]
 author: "Stan7"
 ---
+一个玄学游戏的解的集合（卡在了43关）
 
 Level 12: fantastic (youtube视频名称)
+
 Level 13: Statue_of_Liberty (经纬度坐标对应建筑物)
+
 Level 14: longhorn (bgm)
+
 Level 15: loop (汇编 jmp$命令)
+
 Level 16: awesome (网页标题)
+
 Level 17: number73 (The Alien Parasite Hypothesis)
+
 Level 18: undo (撤销)
+
 Level 19: 直接按ctrl+z (撤销的快捷键)
+
 Level 20: she (用brainfuck编译)
+
 Level 21: moto_360 (手表型号，这谁蒙得到)
+
 Level 22: knight (国际象棋的行走范围)
+
 Level 23: toborrm (把网页宽度缩小到320px，缩不到的话可以先切换手机模式)
+
 Level 24: fsociety (搜索引擎识图)
+
 Level 25: birthday (乐谱)
+
 Level 26: encode (把js复制到浏览器console编译)
 Level 27: feelings (九键拼音)
 Level 28: pack-man(把数字排成矩阵，吃豆人logo)
+
 Level 29: 4008208820 (dhc订购电话)
+
 Level 30: 4008208822 (x += 2;)
+
 Level 31: overwatch (unicode转换成中文字符，守望先锋)
+
 Level 32: pony (第一个qq号的昵称)
+
 Level 33: andriod (弗吉尼亚密码，pony是密钥)
+
 Level 34: android (上一个拼错了，修正它)
+
 Level 35: ljn (去掉背景后识图)
+
 Level 36: localhost (自己的网页)
+
 Level 37: apple (Minecraft里的Notch死后会掉苹果)
+
 Level 38: supercalifragilisticexpialidocious (一个超级长的词)
+
 Level 39: recursion (解压图种，发现是当前网址，自己调用自己为递归)
+
 Level 40: trollface (识图)
+
 Level 41: chlorine (元素周期表，氯)
+
 Level 42: Nexus_6P (google手机，华为代工)
+
 Level 43: 
+
 Level 44: 
