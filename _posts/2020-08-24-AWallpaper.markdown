@@ -6,5 +6,5 @@ categories: ["life"]
 author: "Stan7"
 ---
 
-![这张壁纸]({{site.url}}/pic/wallpaper_cloud.png)
+![这张壁纸]({{site.url}}/pic/wallpaper_cloud.jpg)
 
