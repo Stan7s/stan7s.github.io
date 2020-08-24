@@ -6,7 +6,5 @@ categories: ["life"]
 author: "Stan7"
 ---
 
-![]({{site.url}}/pic/wallpaper_cloud.png)
-
-这张壁纸我好爱。
+![这张壁纸]({{site.url}}/pic/wallpaper_cloud.png)
 
