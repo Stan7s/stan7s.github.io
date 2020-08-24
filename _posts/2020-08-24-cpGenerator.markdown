@@ -2,7 +2,7 @@
 layout: post
 title:  "CP名称生成器"
 date:   2020-08-24 21:37:00 +0530
-categories: ["life"]
+categories: ["work"]
 author: "Stan7"
 ---
 
